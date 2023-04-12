@@ -199,7 +199,7 @@ jooq {
                     name = 'org.jooq.codegen.DefaultGenerator'
                     database {
                         name = 'org.jooq.meta.postgres.PostgresDatabase'
-                        inputSchema = 'public'
+                        inputSchema = 'PUBLIC'
                         forcedTypes {
                             forcedType {
                                 name = 'varchar'
@@ -264,7 +264,7 @@ jooq {
                     name = "org.jooq.codegen.DefaultGenerator"
                     database.apply {
                         name = "org.jooq.meta.postgres.PostgresDatabase"
-                        inputSchema = "public"
+                        inputSchema = "PUBLIC"
                         forcedTypes.addAll(listOf(
                             ForcedType().apply {
                                 name = "varchar"
